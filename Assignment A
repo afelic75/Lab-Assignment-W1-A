@@ -1,0 +1,58 @@
+
+kalei_000@michael MINGW64 ~ (master)
+$ git config user.name
+afelic75
+
+kalei_000@michael MINGW64 ~ (master)
+$ git config __global user.email
+error: key does not contain a section: __global
+
+kalei_000@michael MINGW64 ~ (master)
+$ git config user.email
+61395665+afelic75@users.noreply.github.com
+
+kalei_000@michael MINGW64 ~ (master)
+$ git config core.editor
+
+kalei_000@michael MINGW64 ~ (master)
+$
+
+kalei_000@michael MINGW64 ~ (master)
+$
+
+kalei_000@michael MINGW64 ~/desktop/projecta (master)
+$ git init
+Initialized empty Git repository in C:/Users/kalei_000/Desktop/projecta/.git/
+
+kalei_000@michael MINGW64 ~/desktop/projecta (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fileA.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+kalei_000@michael MINGW64 ~/desktop/projecta (master)
+$ git add fileA.txt.txt
+
+kalei_000@michael MINGW64 ~/desktop/projecta (master)
+$ git commit -m "add fileA.txt.txt"
+[master (root-commit) 25cec54] add fileA.txt.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fileA.txt.txt
+
+kalei_000@michael MINGW64 ~/desktop/projecta (master)
+$ git log
+commit 25cec54bcca73493241529458addf693abc08c1f (HEAD -> master)
+Author: afelic75 <61395665+afelic75@users.noreply.github.com>
+Date:   Mon Feb 24 00:45:56 2020 -0600
+
+    add fileA.txt.txt
+
+kalei_000@michael MINGW64 ~/desktop/projecta (master)
+$ git log --oneline
+25cec54 (HEAD -> master) add fileA.txt.txt
